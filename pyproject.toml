@@ -15,8 +15,8 @@ license = "MIT"
 license-file = "LICENSE"
 
 [project.urls]
-Homepage = "https://mj.ucw.cz/"
 Repository = "https://github.com/gollux/forestwalker.git"
+Documentation = "https://forestwalker.readthedocs.io/en/latest/"
 Issues = "https://github.com/gollux/forestwalker/issues"
 
 [build-system]
