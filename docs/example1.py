@@ -1,4 +1,4 @@
-from treewalker import Walker, WalkerError
+from forestwalker import Walker, WalkerError
 
 tree = {
     'name': 'Robin Hood',

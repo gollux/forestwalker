@@ -1,7 +1,7 @@
 API
 ===
 
-.. automodule:: treewalker
+.. automodule:: forestwalker
    :members:
    :show-inheritance:
    :member-order: bysource

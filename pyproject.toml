@@ -1,5 +1,5 @@
 [project]
-name = "treewalker"
+name = "forestwalker"
 description = "A library for walking JSON-like trees, parsing and validating them."
 version = "0.1"
 authors = [ { name = "Martin Mareš", email = "mj@ucw.cz" } ]
@@ -16,8 +16,8 @@ license-file = "LICENSE"
 
 [project.urls]
 Homepage = "https://mj.ucw.cz/"
-Repository = "https://github.com/gollux/treewalker.git"
-Issues = "https://github.com/gollux/treewalker/issues"
+Repository = "https://github.com/gollux/forestwalker.git"
+Issues = "https://github.com/gollux/forestwalker/issues"
 
 [build-system]
 requires = ["hatchling >= 1.26"]

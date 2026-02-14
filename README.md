@@ -1,4 +1,4 @@
-# The Tree Walker
+# The Forest Walker
 
 Python modules for parsing JSON, TOML, YAML, and similar formats
 produce simple tree structures composed of numbers, strings, Booleans,
@@ -12,11 +12,11 @@ otherwise opens door to security issues). Also, existing formal descriptions
 of syntax (e.g., JSON schema) are too weak for many purposes and unwieldy
 for others.
 
-Enters the ``treewalker``. A Python module that makes it easy to traverse
+Enters the ``forestwalker``. A Python module that makes it easy to traverse
 trees, parse values while checking types, and report invalid data with
 their precise location in the tree.
 
 ## License
 
-The Tree Walker was written by Martin Mareš <mj@ucw.cz>.
+The Forest Walker was written by Martin Mareš <mj@ucw.cz>.
 It can be freely used and distributed under the MIT License.
