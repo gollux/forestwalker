@@ -1,0 +1,27 @@
+[project]
+name = "treewalker"
+description = "A library for walking JSON-like trees, parsing and validating them."
+version = "0.1"
+authors = [ { name = "Martin Mareš", email = "mj@ucw.cz" } ]
+readme = "README.md"
+requires-python = ">= 3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: File Formats :: JSON",
+]
+license = "MIT"
+license-file = "LICENSE"
+
+[project.urls]
+Homepage = "https://mj.ucw.cz/"
+Repository = "https://github.com/gollux/treewalker.git"
+Issues = "https://github.com/gollux/treewalker/issues"
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[pytest]
+testpaths = "tests"
