@@ -1,0 +1,2 @@
+#!/bin/sh
+exec sphinx-build -M html docs docs.out
