@@ -1,0 +1,13 @@
+#!/bin/bash
+set -e
+
+rm -rf dist
+python3 -m build
+ls -al dist
+
+echo -n "Enter to upload... "
+read YES
+
+python3 -m twine upload dist/*
+
+echo "Done."
